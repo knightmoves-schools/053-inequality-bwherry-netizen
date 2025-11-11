@@ -1,12 +1,12 @@
 function guessNumber (guess = 25) {
     if(guess != '25') {
-        return null;
+        return "not it";
     }
 
  if(guess != 25) {
-        return null;
+        return "not it";
     } else {
-        return "not it"
+        return null;
     }
 };
 

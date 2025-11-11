@@ -1,9 +1,9 @@
-function guessNumber {
-    if(25 != '25') {
+function guessNumber (guess = 25) {
+    if(guess != '25') {
         return null;
     }
 
- if(25 != 25) {
+ if(guess != 25) {
         return null;
     } else {
         return "not it"
